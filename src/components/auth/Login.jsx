@@ -40,7 +40,7 @@ export const Login = () => {
                     <h1 className="text-4xl mt-7 mb-3">Gamer Rater</h1>
                     <h2 className="text-xl mb-10">Please sign in</h2>
                     <fieldset className="mb-4">
-                        <label htmlFor="inputUsername"> Username address </label>
+                        <label htmlFor="inputUsername"> Username</label>
                         <input type="text" id="inputUsername"
                             value={username}
                             onChange={evt => setUsername(evt.target.value)}
